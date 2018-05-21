@@ -1,10 +1,10 @@
-## Build a live comment application using Nest.js
+## Build a live comment application using Ruby and Pusher
 
 A demo of a live comment application built with Ruby and Pusher.
 
 Screenshot of the demo app
 
-![live-comment](https://user-images.githubusercontent.com/19610753/39490894-4c09b112-4d82-11e8-9cbb-a2b9186aaa11.gif)
+![comment-ruby](https://user-images.githubusercontent.com/19610753/40324253-df9de94a-5d2f-11e8-8359-66dad05f90c0.gif)
 
 
 ## Getting Started
