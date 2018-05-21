@@ -1,24 +1,49 @@
-# README
+## Build a live comment application using Nest.js
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A demo of a live comment application built with Ruby and Pusher.
 
-Things you may want to cover:
+Screenshot of the demo app
 
-* Ruby version
+![live-comment](https://user-images.githubusercontent.com/19610753/39490894-4c09b112-4d82-11e8-9cbb-a2b9186aaa11.gif)
 
-* System dependencies
 
-* Configuration
+## Getting Started
 
-* Database creation
+### Clone the repository
+```bash
+$ git clone https://github.com/yemiwebby/live-comments-pusher.git
+```
 
-* Database initialization
+### Change directory
+```bash
+$ cd live-comments-pusher
+```
 
-* How to run the test suite
+### Install dependencies
+```bash
+$ bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Setup database
+```bash
+$ rails db:setup $ rails db:migrate
+```
 
-* Deployment instructions
+### Setup Figaro and Env variables
+* Run `$ figaro install` to automatically generate `application.yml` file.
+* Open `config/application.yml` and replace the content (if any) with the following:
 
-* ...
+```bash
+PUSHER_APP_ID: 'your Pusher app ID'
+PUSHER_KEY: 'your pusher kep'
+PUSHER_SECRET: 'your pusher secret'
+PUSHER_CLUSTER: 'your pusher cluster'
+```
+
+## Prerequisites
+A basic knowledge of Ruby and CoffeeScript
+
+## Built With
+
+* [Rails](https://rubyonrails.org/) - Rails is a web application framework running on the Ruby programming language.
+* [Pusher](https://pusher.com/) - A Node.js client to interact with the Pusher REST API
