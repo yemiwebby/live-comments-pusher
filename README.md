@@ -2,6 +2,7 @@
 
 A demo of a live comment application built with Ruby and Pusher.
 
+
 Screenshot of the demo app.
 
 ![comment-ruby](https://user-images.githubusercontent.com/19610753/40324253-df9de94a-5d2f-11e8-8359-66dad05f90c0.gif)
@@ -15,13 +16,11 @@ $ git clone https://github.com/yemiwebby/live-comments-pusher.git
 ```
 
 ### Change directory
-
 ```bash
 $ cd live-comments-pusher
 ```
 
 ### Install dependencies
-
 ```bash
 $ bundle install
 ```
