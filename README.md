@@ -34,6 +34,7 @@ $ rails db:setup $ rails db:migrate
 ### Setup Figaro and Env variables
 
 * Run `$ figaro install` to automatically generate `application.yml` file.
+
 * Open `config/application.yml` and replace the content (if any) with the following:
 
 ```bash
@@ -49,4 +50,5 @@ A basic knowledge of Ruby and CoffeeScript
 ## Built With
 
 * [Rails](https://rubyonrails.org/) - Rails is a web application framework running on the Ruby programming language.
+
 * [Pusher](https://pusher.com/) - A Node.js client to interact with the Pusher REST API
