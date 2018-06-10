@@ -2,6 +2,7 @@
 
 A demo of a live comment application built with Ruby and Pusher.
 
+[View tutorial](https://pusher.com/tutorials/live-comments-ruby-rails-postgresql)
 
 Screenshot of the demo app.
 
