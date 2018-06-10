@@ -9,7 +9,6 @@ Screenshot of the demo app.
 
 
 ## Getting Started
-
 ### Clone the repository
 ```bash
 $ git clone https://github.com/yemiwebby/live-comments-pusher.git
@@ -38,10 +37,12 @@ $ rails db:setup $ rails db:migrate
 * Open `config/application.yml` and replace the content (if any) with the following:
 
 ```bash
+
 PUSHER_APP_ID: 'your Pusher app ID'
 PUSHER_KEY: 'your pusher kep'
 PUSHER_SECRET: 'your pusher secret'
 PUSHER_CLUSTER: 'your pusher cluster'
+
 ```
 
 ## Prerequisites
