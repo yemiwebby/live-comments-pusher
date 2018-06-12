@@ -7,6 +7,7 @@ class CommentsController < ApplicationController
     @comments = Comment.all
     @comment = Comment.new 
   end
+  
 
   # GET /comments/1
   # GET /comments/1.json
@@ -67,6 +68,7 @@ class CommentsController < ApplicationController
     def set_comment
       @comment = Comment.find(params[:id])
     end
+
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def comment_params
